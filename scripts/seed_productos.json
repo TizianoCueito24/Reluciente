@@ -1,0 +1,163 @@
+[
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f67890987654" },
+    "nombre": "Escoba de Cerdas Duras",
+    "precio_por_unidad": 3500.00,
+    "stock": 15,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123456" },
+    "detalles": {
+      "tipo_venta": "Unidad",
+      "material": "Plástico y cerdas sintéticas"
+    }
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f67890987655" },
+    "nombre": "Detergente Líquido Limón",
+    "precio_por_unidad": 1200.00,
+    "stock": 50,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123457" },
+    "detalles": {
+      "tipo_venta": "Suelto",
+      "unidad_medida": "Litros"
+    }
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f67890987656" },
+    "nombre": "Multiuso Aroma Lavanda",
+    "precio_por_unidad": 950.00,
+    "stock": 40,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123458" },
+    "detalles": {
+      "tipo_venta": "Suelto",
+      "unidad_medida": "Litros"
+    },
+    "superficies_aptas": ["Vidrio", "Piso", "Mesada"]
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f67890987657" },
+    "nombre": "Desinfectante Cocina Bactericida",
+    "precio_por_unidad": 1450.00,
+    "stock": 25,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123459" },
+    "detalles": {
+      "tipo_venta": "Suelto",
+      "unidad_medida": "Litros"
+    },
+    "certificaciones": ["ANMAT"],
+    "concentracion_activa": "5%"
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f67890987658" },
+    "nombre": "Limpiavidrios Especial",
+    "precio_por_unidad": 890.00,
+    "stock": 30,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f6789012345a" },
+    "detalles": {
+      "tipo_venta": "Unidad",
+      "presentacion": "Spray 500ml",
+      "superficie": "Vidrio"
+    }
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f67890987659" },
+    "nombre": "Detergente en Polvo Ropa Blanca",
+    "precio_por_unidad": 2100.00,
+    "stock": 18,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123457" },
+    "detalles": {
+      "tipo_venta": "Unidad",
+      "presentacion": "Caja 800g"
+    }
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f6789098765a" },
+    "nombre": "Desengrasante Industrial Cocina",
+    "precio_por_unidad": 1780.00,
+    "stock": 8,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f6789012345b" },
+    "detalles": {
+      "tipo_venta": "Suelto",
+      "unidad_medida": "Litros"
+    },
+    "advertencia_seguridad": "Usar guantes y ventilar el ambiente"
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f6789098765b" },
+    "nombre": "Limpiador Enzimático Manchas Orgánicas",
+    "precio_por_unidad": 2600.00,
+    "stock": 12,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f6789012345c" },
+    "detalles": {
+      "tipo_venta": "Suelto",
+      "unidad_medida": "Litros"
+    },
+    "enzimas": {
+      "tipo": "Proteasa",
+      "concentracion": "2%"
+    }
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f6789098765c" },
+    "nombre": "Estropajo Doble Faz",
+    "precio_por_unidad": 650.00,
+    "stock": 60,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123456" },
+    "detalles": {
+      "tipo_venta": "Unidad",
+      "material": "Esponja + fibra verde"
+    },
+    "unidades_por_pack": 3
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f6789098765d" },
+    "nombre": "Lampazo con Mango",
+    "precio_por_unidad": 4200.00,
+    "stock": 9,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123456" },
+    "detalles": {
+      "tipo_venta": "Unidad",
+      "material": "Algodón y mango de aluminio"
+    },
+    "colores_disponibles": ["Verde", "Azul"]
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f6789098765e" },
+    "nombre": "Desinfectante Multisuperficie Aerosol",
+    "precio_por_unidad": 1590.00,
+    "stock": 22,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123459" },
+    "detalles": {
+      "tipo_venta": "Unidad",
+      "presentacion": "Aerosol 360ml"
+    },
+    "promocion": {
+      "activa": true,
+      "descuento_pct": 15,
+      "vence": "2026-10-31"
+    }
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f6789098765f" },
+    "nombre": "Detergente Líquido Ropa Color",
+    "precio_por_unidad": 1350.00,
+    "stock": 35,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123457" },
+    "detalles": {
+      "tipo_venta": "Suelto",
+      "unidad_medida": "Litros"
+    },
+    "fragancias": ["Floral", "Frescura", "Cítrico"]
+  },
+  {
+    "_id": { "$oid": "64a1f9e8d4e5f67890987660" },
+    "nombre": "Repuesto Cepillo Descontinuado",
+    "precio_por_unidad": 300.00,
+    "stock": 0,
+    "categoria_id": { "$oid": "64a1b2c3d4e5f67890123456" },
+    "detalles": {
+      "tipo_venta": "Unidad",
+      "material": "Plástico"
+    },
+    "descontinuado": true
+  }
+]
