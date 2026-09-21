@@ -1,0 +1,37 @@
+[
+  {
+    "_id": { "$oid": "64a1b2c3d4e5f67890123456" },
+    "nombre": "Utensilios y Accesorios",
+    "descripcion": "Artículos físicos complementarios comercializados por unidad"
+  },
+  {
+    "_id": { "$oid": "64a1b2c3d4e5f67890123457" },
+    "nombre": "Detergentes",
+    "descripcion": "Productos líquidos o en polvo para limpieza y lavado de vajilla o tejidos"
+  },
+  {
+    "_id": { "$oid": "64a1b2c3d4e5f67890123458" },
+    "nombre": "Multiusos",
+    "descripcion": "Aptos para diversas superficies como encimeras, mesas y pisos, ideales para limpieza diaria"
+  },
+  {
+    "_id": { "$oid": "64a1b2c3d4e5f67890123459" },
+    "nombre": "Desinfectantes",
+    "descripcion": "Diseñados para eliminar bacterias y virus, recomendados en cocinas, baños y áreas que requieren higiene estricta"
+  },
+  {
+    "_id": { "$oid": "64a1b2c3d4e5f6789012345a" },
+    "nombre": "Limpiadores específicos",
+    "descripcion": "Formulados para superficies concretas como vidrio, madera, alfombras o textiles"
+  },
+  {
+    "_id": { "$oid": "64a1b2c3d4e5f6789012345b" },
+    "nombre": "Desengrasantes",
+    "descripcion": "Eficaces contra grasa y aceite, especialmente en cocinas e industrias"
+  },
+  {
+    "_id": { "$oid": "64a1b2c3d4e5f6789012345c" },
+    "nombre": "Limpiadores enzimáticos",
+    "descripcion": "Utilizan enzimas activas para descomponer manchas orgánicas complejas y neutralizar olores"
+  }
+]
