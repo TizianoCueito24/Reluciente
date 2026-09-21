@@ -102,11 +102,11 @@ El sembrado completo de ambas colecciones (7 categorías y 13 productos) está e
 
 **3\. Fundamentación de la Lógica No Relacional** Las decisiones arquitectónicas tomadas para el modelado de los documentos se justifican estrictamente en los patrones de acceso y consultas (queries) proyectados para la aplicación:
 
-​🔹​Anidamiento para **detalles**:
+* ​​Anidamiento para **detalles**:
 
 Se optó por anidar las características operativas y el tipo de comercialización (ya sea formato por litro o por unidad) directamente dentro del documento de cada producto. En el día a día del negocio, el patrón de lectura más frecuente será un query de búsqueda en el catálogo **(ej. db.productos.find({ nombre: "Escoba" }))**. Al consultar un artículo, el operador necesita ver de forma inmediata cómo se comercializa. El anidamiento optimiza este acceso, logrando obtener toda la información técnica en una única lectura en disco, sin necesidad de procesar múltiples consultas o uniones complejas.
 
-​🔹​Referencia (References) para **categoria\_id**:
+* ​​Referencia (References) para **categoria\_id**:
 
 Se decidió separar la información de las categorías en su propia colección y vincularlas mediante el ID (categoria\_id). El patrón de acceso para modificar la estructura de las categorías es bajo, pero la consistencia de los datos es clave. Si el comercio decide actualizar la descripción de una categoría, esta estrategia evita anomalías y redundancias innecesarias, permitiendo modificar el dato en un único documento maestro sin tener que recorrer y actualizar masivamente cientos de documentos asociados en la colección de productos.
 
