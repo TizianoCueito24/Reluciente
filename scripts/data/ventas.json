@@ -1,0 +1,300 @@
+[
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0001"
+    },
+    "numero_ticket": 1001,
+    "fecha": {
+      "$date": "2026-10-26T10:12:00Z"
+    },
+    "medio_pago": "Efectivo",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987655"
+        },
+        "nombre": "Detergente Líquido Limón",
+        "cantidad": 2,
+        "precio_unitario": 1200.0
+      },
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765c"
+        },
+        "nombre": "Estropajo Doble Faz",
+        "cantidad": 3,
+        "precio_unitario": 650.0
+      }
+    ],
+    "total": 4350.0
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0002"
+    },
+    "numero_ticket": 1002,
+    "fecha": {
+      "$date": "2026-10-27T11:40:00Z"
+    },
+    "medio_pago": "Débito",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987654"
+        },
+        "nombre": "Escoba de Cerdas Duras",
+        "cantidad": 1,
+        "precio_unitario": 3500.0
+      }
+    ],
+    "total": 3500.0
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0003"
+    },
+    "numero_ticket": 1003,
+    "fecha": {
+      "$date": "2026-10-28T09:05:00Z"
+    },
+    "medio_pago": "Transferencia",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987656"
+        },
+        "nombre": "Multiuso Aroma Lavanda",
+        "cantidad": 3,
+        "precio_unitario": 950.0
+      },
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987658"
+        },
+        "nombre": "Limpiavidrios Especial",
+        "cantidad": 2,
+        "precio_unitario": 890.0
+      },
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765d"
+        },
+        "nombre": "Lampazo con Mango",
+        "cantidad": 1,
+        "precio_unitario": 4200.0
+      }
+    ],
+    "total": 8830.0,
+    "cliente": "Cliente Mostrador"
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0004"
+    },
+    "numero_ticket": 1004,
+    "fecha": {
+      "$date": "2026-10-29T16:20:00Z"
+    },
+    "medio_pago": "Efectivo",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987657"
+        },
+        "nombre": "Desinfectante Cocina Bactericida",
+        "cantidad": 1,
+        "precio_unitario": 1450.0
+      }
+    ],
+    "total": 1450.0
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0005"
+    },
+    "numero_ticket": 1005,
+    "fecha": {
+      "$date": "2026-10-30T12:00:00Z"
+    },
+    "medio_pago": "Débito",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987659"
+        },
+        "nombre": "Detergente en Polvo Ropa Blanca",
+        "cantidad": 2,
+        "precio_unitario": 2100.0
+      }
+    ],
+    "total": 4200.0
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0006"
+    },
+    "numero_ticket": 1006,
+    "fecha": {
+      "$date": "2026-11-02T10:30:00Z"
+    },
+    "medio_pago": "Efectivo",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765a"
+        },
+        "nombre": "Desengrasante Industrial Cocina",
+        "cantidad": 2,
+        "precio_unitario": 1780.0
+      },
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765c"
+        },
+        "nombre": "Estropajo Doble Faz",
+        "cantidad": 6,
+        "precio_unitario": 650.0
+      }
+    ],
+    "total": 7460.0,
+    "cliente": "Restaurante Demo"
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0007"
+    },
+    "numero_ticket": 1007,
+    "fecha": {
+      "$date": "2026-11-03T17:45:00Z"
+    },
+    "medio_pago": "Transferencia",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765b"
+        },
+        "nombre": "Limpiador Enzimático Manchas Orgánicas",
+        "cantidad": 1,
+        "precio_unitario": 2600.0
+      }
+    ],
+    "total": 2600.0
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0008"
+    },
+    "numero_ticket": 1008,
+    "fecha": {
+      "$date": "2026-11-05T09:50:00Z"
+    },
+    "medio_pago": "Efectivo",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765e"
+        },
+        "nombre": "Desinfectante Multisuperficie Aerosol",
+        "cantidad": 4,
+        "precio_unitario": 1590.0
+      },
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765f"
+        },
+        "nombre": "Detergente Líquido Ropa Color",
+        "cantidad": 2,
+        "precio_unitario": 1350.0
+      }
+    ],
+    "total": 9060.0
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a0009"
+    },
+    "numero_ticket": 1009,
+    "fecha": {
+      "$date": "2026-11-09T13:10:00Z"
+    },
+    "medio_pago": "Débito",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765d"
+        },
+        "nombre": "Lampazo con Mango",
+        "cantidad": 2,
+        "precio_unitario": 4200.0
+      },
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987654"
+        },
+        "nombre": "Escoba de Cerdas Duras",
+        "cantidad": 2,
+        "precio_unitario": 3500.0
+      }
+    ],
+    "total": 15400.0,
+    "cliente": "Cliente Mostrador"
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a000a"
+    },
+    "numero_ticket": 1010,
+    "fecha": {
+      "$date": "2026-11-12T11:00:00Z"
+    },
+    "medio_pago": "Efectivo",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987656"
+        },
+        "nombre": "Multiuso Aroma Lavanda",
+        "cantidad": 5,
+        "precio_unitario": 950.0
+      }
+    ],
+    "total": 4750.0
+  },
+  {
+    "_id": {
+      "$oid": "64b2a0c1d4e5f678909a000b"
+    },
+    "numero_ticket": 1011,
+    "fecha": {
+      "$date": "2026-11-14T15:35:00Z"
+    },
+    "medio_pago": "Débito",
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987655"
+        },
+        "nombre": "Detergente Líquido Limón",
+        "cantidad": 4,
+        "precio_unitario": 1200.0
+      },
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f67890987657"
+        },
+        "nombre": "Desinfectante Cocina Bactericida",
+        "cantidad": 2,
+        "precio_unitario": 1450.0
+      },
+      {
+        "producto_id": {
+          "$oid": "64a1f9e8d4e5f6789098765c"
+        },
+        "nombre": "Estropajo Doble Faz",
+        "cantidad": 2,
+        "precio_unitario": 650.0
+      }
+    ],
+    "total": 9000.0
+  }
+]

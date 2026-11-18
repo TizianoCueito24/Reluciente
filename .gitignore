@@ -1,0 +1,8 @@
+# Secretos y datos de ejecución: nunca al repositorio
+keys/
+*.key
+data/nodo1/
+data/nodo2/
+data/arbitro/
+logs/
+.env
